@@ -1,0 +1,17 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Public photos overview</h3>
+
+@Html.Partial("_ListPhotosPartial", Model)
+
+@if (Model.PageInfo.TotalPages > 1)
+{
+    <div class="btn-group div-centercontent">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("PublicAlbumOverview", new { name=Model.ViewModels.First().Name, page = x }))
+    </div>
+}

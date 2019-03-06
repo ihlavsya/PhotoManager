@@ -1,0 +1,32 @@
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Services.Tests.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Services.Tests.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Castle.Core.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Moq.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\PhotoManager.DAL.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Services.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\System.ValueTuple.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Helpers.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Services.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Castle.Core.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Moq.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Moq.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\System.ValueTuple.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\bin\Debug\Helpers.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\obj\Debug\Services.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\obj\Debug\Services.Tests.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\obj\Debug\Services.Tests.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\obj\Debug\Services.Tests.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services.Tests\obj\Debug\Services.Tests.pdb

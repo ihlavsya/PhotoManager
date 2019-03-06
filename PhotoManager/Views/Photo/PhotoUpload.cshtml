@@ -1,0 +1,16 @@
+﻿@model PhotoManager.Model.ViewModels.FilesViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Photo upload</h3>
+<div class="new-div">
+@using (Html.BeginForm("PhotoUpload", "Photo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.Label("Upload Image")
+    <input type="file" name="files.Files" class="form-control-file custom-file-input" multiple id="file"/>
+    @Html.Hidden("files.AlbumId", Model.AlbumId)
+    <input type="submit" value="Upload" /> 
+}
+</div>

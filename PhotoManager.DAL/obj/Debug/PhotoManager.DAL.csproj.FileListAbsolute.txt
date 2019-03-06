@@ -1,0 +1,117 @@
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.InitialCreate.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.PhotoTakingPlace.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.CameraModel.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.LensFocalLength.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ISO.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Flash.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Diaphragm.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Genre.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveAlbumIdFromPhoto.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.OriginalName.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ModifiedUploadDateTime.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.DropUploadDateTime.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AutoUpdateDateTime.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test1.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlbumUpdateDateTime.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.stringlist_to_tbl.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveGenre.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.EnumGenre.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.FloatDiaphragm.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AdvancedSearchPhotos.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.SeparateShutterSpeed.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlterAdvancedSearch.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveIsPaid.resources
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.GenerateResource.Cache
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Username.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.InitialCreate.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.PhotoTakingPlace.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.CameraModel.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.LensFocalLength.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ISO.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Flash.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Diaphragm.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Genre.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveAlbumIdFromPhoto.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.OriginalName.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ModifiedUploadDateTime.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.DropUploadDateTime.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AutoUpdateDateTime.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test1.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlbumUpdateDateTime.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.stringlist_to_tbl.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveGenre.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.EnumGenre.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.FloatDiaphragm.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AdvancedSearchPhotos.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.SeparateShutterSpeed.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlterAdvancedSearch.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveIsPaid.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Username.resources
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.GenerateResource.Cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.InitialCreate.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.PhotoTakingPlace.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.CameraModel.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.LensFocalLength.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ISO.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Flash.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Diaphragm.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Genre.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveAlbumIdFromPhoto.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.OriginalName.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.ModifiedUploadDateTime.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.DropUploadDateTime.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AutoUpdateDateTime.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.test1.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlbumUpdateDateTime.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.stringlist_to_tbl.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveGenre.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.EnumGenre.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.FloatDiaphragm.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AdvancedSearchPhotos.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.SeparateShutterSpeed.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.AlterAdvancedSearch.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.RemoveIsPaid.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.Migrations.Username.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.GenerateResource.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\PhotoManager.DAL\obj\Debug\PhotoManager.DAL.csprojAssemblyReference.cache

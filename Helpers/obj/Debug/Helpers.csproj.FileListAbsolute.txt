@@ -1,0 +1,17 @@
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\bin\Debug\Helpers.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Helpers\obj\Debug\Helpers.csprojAssemblyReference.cache

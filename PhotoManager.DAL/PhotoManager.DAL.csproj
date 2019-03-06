@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhotoManager.DAL</RootNamespace>
+    <AssemblyName>PhotoManager.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EF\PhotoManagerContext.cs" />
+    <Compile Include="EF\PhotoManagerDBInitializer.cs" />
+    <Compile Include="Entities\Genres.cs" />
+    <Compile Include="Entities\Photo.cs" />
+    <Compile Include="Entities\Album.cs" />
+    <Compile Include="Entities\ShutterSpeedValues.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Interfaces\IPhotoRepository.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Migrations\201804030842290_InitialCreate.cs" />
+    <Compile Include="Migrations\201804030842290_InitialCreate.Designer.cs">
+      <DependentUpon>201804030842290_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804030855463_test.cs" />
+    <Compile Include="Migrations\201804030855463_test.Designer.cs">
+      <DependentUpon>201804030855463_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041110351_PhotoTakingPlace.cs" />
+    <Compile Include="Migrations\201804041110351_PhotoTakingPlace.Designer.cs">
+      <DependentUpon>201804041110351_PhotoTakingPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041112047_CameraModel.cs" />
+    <Compile Include="Migrations\201804041112047_CameraModel.Designer.cs">
+      <DependentUpon>201804041112047_CameraModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041114506_LensFocalLength.cs" />
+    <Compile Include="Migrations\201804041114506_LensFocalLength.Designer.cs">
+      <DependentUpon>201804041114506_LensFocalLength.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041117277_ISO.cs" />
+    <Compile Include="Migrations\201804041117277_ISO.Designer.cs">
+      <DependentUpon>201804041117277_ISO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041124141_Flash.cs" />
+    <Compile Include="Migrations\201804041124141_Flash.Designer.cs">
+      <DependentUpon>201804041124141_Flash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804041129233_Diaphragm.cs" />
+    <Compile Include="Migrations\201804041129233_Diaphragm.Designer.cs">
+      <DependentUpon>201804041129233_Diaphragm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804051413386_Genre.cs" />
+    <Compile Include="Migrations\201804051413386_Genre.Designer.cs">
+      <DependentUpon>201804051413386_Genre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804061347560_RemoveAlbumIdFromPhoto.cs" />
+    <Compile Include="Migrations\201804061347560_RemoveAlbumIdFromPhoto.Designer.cs">
+      <DependentUpon>201804061347560_RemoveAlbumIdFromPhoto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100831217_OriginalName.cs" />
+    <Compile Include="Migrations\201804100831217_OriginalName.Designer.cs">
+      <DependentUpon>201804100831217_OriginalName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100916074_ModifiedUploadDateTime.cs" />
+    <Compile Include="Migrations\201804100916074_ModifiedUploadDateTime.Designer.cs">
+      <DependentUpon>201804100916074_ModifiedUploadDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100943328_DropUploadDateTime.cs" />
+    <Compile Include="Migrations\201804100943328_DropUploadDateTime.Designer.cs">
+      <DependentUpon>201804100943328_DropUploadDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100946477_AutoUpdateDateTime.cs" />
+    <Compile Include="Migrations\201804100946477_AutoUpdateDateTime.Designer.cs">
+      <DependentUpon>201804100946477_AutoUpdateDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804100959130_test1.cs" />
+    <Compile Include="Migrations\201804100959130_test1.Designer.cs">
+      <DependentUpon>201804100959130_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804101024273_AlbumUpdateDateTime.cs" />
+    <Compile Include="Migrations\201804101024273_AlbumUpdateDateTime.Designer.cs">
+      <DependentUpon>201804101024273_AlbumUpdateDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804160754222_stringlist_to_tbl.cs" />
+    <Compile Include="Migrations\201804160754222_stringlist_to_tbl.Designer.cs">
+      <DependentUpon>201804160754222_stringlist_to_tbl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804160903256_RemoveGenre.cs" />
+    <Compile Include="Migrations\201804160903256_RemoveGenre.Designer.cs">
+      <DependentUpon>201804160903256_RemoveGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804160916550_EnumGenre.cs" />
+    <Compile Include="Migrations\201804160916550_EnumGenre.Designer.cs">
+      <DependentUpon>201804160916550_EnumGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804160932578_FloatDiaphragm.cs" />
+    <Compile Include="Migrations\201804160932578_FloatDiaphragm.Designer.cs">
+      <DependentUpon>201804160932578_FloatDiaphragm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804160938472_AdvancedSearchPhotos.cs" />
+    <Compile Include="Migrations\201804160938472_AdvancedSearchPhotos.Designer.cs">
+      <DependentUpon>201804160938472_AdvancedSearchPhotos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804171042089_SeparateShutterSpeed.cs" />
+    <Compile Include="Migrations\201804171042089_SeparateShutterSpeed.Designer.cs">
+      <DependentUpon>201804171042089_SeparateShutterSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804171042507_AlterAdvancedSearch.cs" />
+    <Compile Include="Migrations\201804171042507_AlterAdvancedSearch.Designer.cs">
+      <DependentUpon>201804171042507_AlterAdvancedSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804181451538_RemoveIsPaid.cs" />
+    <Compile Include="Migrations\201804181451538_RemoveIsPaid.Designer.cs">
+      <DependentUpon>201804181451538_RemoveIsPaid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201804201058526_Username.cs" />
+    <Compile Include="Migrations\201804201058526_Username.Designer.cs">
+      <DependentUpon>201804201058526_Username.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\PhotoRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201804030842290_InitialCreate.resx">
+      <DependentUpon>201804030842290_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804030855463_test.resx">
+      <DependentUpon>201804030855463_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041110351_PhotoTakingPlace.resx">
+      <DependentUpon>201804041110351_PhotoTakingPlace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041112047_CameraModel.resx">
+      <DependentUpon>201804041112047_CameraModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041114506_LensFocalLength.resx">
+      <DependentUpon>201804041114506_LensFocalLength.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041117277_ISO.resx">
+      <DependentUpon>201804041117277_ISO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041124141_Flash.resx">
+      <DependentUpon>201804041124141_Flash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804041129233_Diaphragm.resx">
+      <DependentUpon>201804041129233_Diaphragm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804051413386_Genre.resx">
+      <DependentUpon>201804051413386_Genre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804061347560_RemoveAlbumIdFromPhoto.resx">
+      <DependentUpon>201804061347560_RemoveAlbumIdFromPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100831217_OriginalName.resx">
+      <DependentUpon>201804100831217_OriginalName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100916074_ModifiedUploadDateTime.resx">
+      <DependentUpon>201804100916074_ModifiedUploadDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100943328_DropUploadDateTime.resx">
+      <DependentUpon>201804100943328_DropUploadDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100946477_AutoUpdateDateTime.resx">
+      <DependentUpon>201804100946477_AutoUpdateDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804100959130_test1.resx">
+      <DependentUpon>201804100959130_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804101024273_AlbumUpdateDateTime.resx">
+      <DependentUpon>201804101024273_AlbumUpdateDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804160754222_stringlist_to_tbl.resx">
+      <DependentUpon>201804160754222_stringlist_to_tbl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804160903256_RemoveGenre.resx">
+      <DependentUpon>201804160903256_RemoveGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804160916550_EnumGenre.resx">
+      <DependentUpon>201804160916550_EnumGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804160932578_FloatDiaphragm.resx">
+      <DependentUpon>201804160932578_FloatDiaphragm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804160938472_AdvancedSearchPhotos.resx">
+      <DependentUpon>201804160938472_AdvancedSearchPhotos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804171042089_SeparateShutterSpeed.resx">
+      <DependentUpon>201804171042089_SeparateShutterSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804171042507_AlterAdvancedSearch.resx">
+      <DependentUpon>201804171042507_AlterAdvancedSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804181451538_RemoveIsPaid.resx">
+      <DependentUpon>201804181451538_RemoveIsPaid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201804201058526_Username.resx">
+      <DependentUpon>201804201058526_Username.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

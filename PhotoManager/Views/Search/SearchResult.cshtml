@@ -1,0 +1,55 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Result of search (photos)</h3>
+<div class="new-div">
+    @for (int j = 0; j < Model.ViewModels.Count;)
+    {
+        <div class="row">
+            @for (int i = 0; i < ViewBag.ObjectsPerRow && j < Model.ViewModels.Count; i++)
+            {
+                var viewModel = Model.ViewModels[j];
+
+                <div class="col-md-2">
+                    @Html.ImageLink(viewModel.FilePath, viewModel.Name, "PhotoSlider", "Photo", new {photosId = Json.Encode(Model.FullListViewModelIds), photoId = viewModel.PhotoId},null,null)
+                    <div class="form-group col-md-9 div-narrow" style="padding-left: 0">
+                        <figcaption class="figure-caption caption-label label-block">@viewModel.Description</figcaption>
+                        <figcaption class="figure-caption caption-label label-block">@viewModel.PhotoTakingPlace</figcaption>
+                    </div>
+                </div>
+                j++;
+            }
+        </div>
+    }
+</div>
+
+
+@if (Model.PageInfo.TotalPages > 1)
+{
+    for (int i = 1; i <= Model.PageInfo.TotalPages; i++)
+    {
+        <div class="btn-group">
+            @using (Html.BeginForm("SearchResult", "Search", FormMethod.Get))
+            {
+
+                @Html.Hidden("searchQuery", (string) ViewBag.SearchQuery)
+                <input type="hidden"name="page" value="@i"/>
+                if (Model.PageInfo.PageNumber == i)
+                {
+                    <input type="submit" value="@i"class="btn btn-primary selected"/>
+                }
+                else
+                {
+                    <input type="submit" class="btn btn-default" value="@i"/>
+                }
+
+            }
+
+        </div>
+    }
+}

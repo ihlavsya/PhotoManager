@@ -1,0 +1,102 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.div-choice {
+    padding-left: 200px;
+    margin: 10px;
+}
+
+.div-img {
+    margin: 20px;
+}
+
+.box-fraction {
+    width: 50px;
+}
+
+.div-padding {
+    padding-top: 30px;
+}
+
+.div-centercontent {
+    padding-left: 400px;
+}
+
+.img-selected {
+    color: rgba(0, 5, 250, 0.3);
+    width: 120px;
+    height: 120px;
+}
+
+.div-wide {
+    max-width: 1200px;
+    width: 1200px;
+}
+
+.div-narrow {
+    width: 153px;
+}
+
+.label-block {
+    display: block;
+    width: 150px;
+}
+
+.h-choice {
+    padding-left: 70px;
+    margin: 10px;
+}
+
+.btn-choice {
+    text-align: center;
+    width: 120px;
+}
+
+.label-nonfloat {
+    float: none;
+}
+
+.label-value {
+    font-weight: lighter;
+}
+
+.img-size {
+    width: 300px;
+    height: 300px;
+}
+
+.td-normalize {
+    vertical-align: top;
+}
+
+.figure-caption.caption-label {
+    width: 150px;
+    float: left;
+    word-wrap: break-word;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.search {
+    margin-top: 8px;
+}

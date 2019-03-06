@@ -1,0 +1,13 @@
+﻿
+@using (Html.BeginForm("SearchResult", "Search", FormMethod.Get))
+{
+    @Html.Hidden("page",1)
+    <div class="row">
+        <div class="col-md-6">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="searchQuery" style="margin-top: 8px">
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-default" type="submit" style="margin-top: 8px">Search</button>
+        </div>
+    </div>
+}

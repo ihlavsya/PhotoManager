@@ -1,0 +1,72 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div style="width: 1400px" class="container">
+    <div class="form-group">
+        <div class="col-md-2">
+            <ul class="nav navbar-left">
+                <li>@Html.Partial("_ForAdvancedSearch", (PhotoViewModel)ViewBag.SearchViewModel)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Result of advanced search (photos)</h3>
+
+            <div>
+                @for (int j = 0; j < Model.ViewModels.Count;)
+                {
+                    <div class="row">
+                        @for (int i = 0; i < ViewBag.ObjectsPerRow && j < Model.ViewModels.Count; i++)
+                        {
+                            var viewModel = Model.ViewModels[j];
+
+                            <div class="col-md-2">
+                                @Html.ImageLink(viewModel.FilePath, viewModel.Name, "PhotoSlider", "Photo", new {photosId = Json.Encode(Model.FullListViewModelIds), photoId = viewModel.PhotoId},null,null)
+                                <div class="form-group col-md-9 div-narrow" style="padding-left: 0">
+                                    <figcaption class="figure-caption caption-label label-block">@viewModel.Description</figcaption>
+                                    <figcaption class="figure-caption caption-label label-block">@viewModel.PhotoTakingPlace</figcaption>
+                                </div>
+                            </div>
+                            j++;
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (Model.PageInfo.TotalPages > 1)
+{
+    for (int i = 1; i <= Model.PageInfo.TotalPages; i++)
+    {
+        <div class="btn-group">
+            @using (Html.BeginForm("AdvancedSearch", "Search", FormMethod.Get))
+            {
+                <input type="hidden" name="searchViewModel.PhotoTakingPlace" value="@ViewBag.SearchQuery.PhotoTakingPlace" />
+                <input type="hidden" name="searchViewModel.Description" value="@ViewBag.SearchQuery.Description" />
+                <input type="hidden" name="searchViewModel.CameraModel" value="@ViewBag.SearchQuery.CameraModel" />
+                <input type="hidden" name="searchViewModel.Flash" value="@ViewBag.SearchQuery.Flash" />
+                <input type="hidden" name="searchViewModel.LensFocalLength" value="@ViewBag.SearchQuery.LensFocalLength" />
+                <input type="hidden" name="searchViewModel.ISO" value="@ViewBag.SearchQuery.ISO" />
+                <input type="hidden" name="searchViewModel.ShutterSpeed" value="@ViewBag.SearchQuery.ShutterSpeed" />
+                <input type="hidden" name="searchViewModel.Diaphragm" value="@ViewBag.SearchQuery.Diaphragm" />
+                <input type="hidden" name="page" value="@i" />
+                if (Model.PageInfo.PageNumber == i)
+                {
+                    <input type="submit" value="@i" class="btn btn-primary selected" />
+                }
+                else
+                {
+                    <input type="submit" class="btn btn-default" value="@i" />
+                }
+
+            }
+
+        </div>
+    }
+}

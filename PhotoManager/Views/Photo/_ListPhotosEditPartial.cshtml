@@ -1,0 +1,43 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model List<PhotoViewModel>
+
+@using (Html.BeginForm("RemovePhotos", "Photo", FormMethod.Post, null))
+{
+    @Html.AntiForgeryToken()
+    <div class="col-md-10">
+        @for (int j = 0; j < Model.Count;)
+        {
+            <div class="row">
+                @for (int i = 0; i < ViewBag.ObjectsPerRow && j < Model.Count; i++)
+                {
+                    var viewModel = Model[j];
+
+                    <div class="col-md-2">
+                        <figure class="figure">
+                            @Html.Image(viewModel.FilePath, viewModel.Name, null)
+                            <div class="form-group">
+                                <input type="checkbox" name="itemsToDelete" value="@viewModel.PhotoId"/>
+                                @Html.ActionLink(" ", "UpdatePhoto", "Photo", new {id = viewModel.PhotoId}, new {@class = "glyphicon glyphicon-pencil"})
+                            </div>
+                            <div class="form-group col-md-9 div-narrow" style="padding-left: 0">
+                                <figcaption class="figure-caption caption-label">@viewModel.Description</figcaption>
+                                <figcaption class="figure-caption caption-label">@viewModel.PhotoTakingPlace</figcaption>
+                            </div>
+                        </figure>
+                    </div>
+                    j++;
+                }
+            </div>
+        }
+    </div>
+    <div class="col-md-2">
+        @Html.ActionLink("Overview Mode", "AlbumOverview", "Photo", new { albumId = Model.First().Albums.First().AlbumId }, new { @class = "btn btn-default" })
+        @Html.ActionLink("Add new photo(s)", "PhotoUpload", "Photo", new { albumId = Model.First().Albums.First().AlbumId }, new { @class = "btn btn-default" })
+        @if (ViewBag.PhotosCount != 0)
+        {
+            @Html.ActionLink("Add existing photo", "AddExistingPhotosToAnotherAlbum", "Album", new { albumId = Model.First().Albums.First().AlbumId }, new { @class = "btn btn-default" })
+        }
+        <input type="submit" value="Delete photo(s)" class="btn btn-default" />
+    </div>
+}

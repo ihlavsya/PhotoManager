@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoManager", "PhotoManager\PhotoManager.csproj", "{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{1C103709-8518-4873-B6E5-1C03483AB407}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{62A20B10-0C46-4224-9BF0-133AB62D16B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic Layer", "Business Logic Layer", "{B7A3E815-B7D9-46BA-B5E1-035365D03F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoManager.DAL", "PhotoManager.DAL\PhotoManager.DAL.csproj", "{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{6ADCE51D-D3B6-4129-809F-67F322E7951E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADCE51D-D3B6-4129-809F-67F322E7951E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADCE51D-D3B6-4129-809F-67F322E7951E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADCE51D-D3B6-4129-809F-67F322E7951E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADCE51D-D3B6-4129-809F-67F322E7951E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD} = {62A20B10-0C46-4224-9BF0-133AB62D16B6}
+	EndGlobalSection
+EndGlobal

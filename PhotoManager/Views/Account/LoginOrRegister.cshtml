@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container div-choice">
+        <h2 class="h-choice">Welcome to Photo Manager!</h2>
+    <div class="container div-choice">
+        @Html.ActionLink("Login", "Login", "Account", null, new { @class = "btn btn-default btn-choice" })
+    </div>
+    <div class="container div-choice">
+        @Html.ActionLink("Create account", "Register", "Account", null, new { @class = "btn btn-default btn-choice" })
+    </div>
+</div>

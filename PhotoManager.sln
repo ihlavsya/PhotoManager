@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoManager", "PhotoManager\PhotoManager.csproj", "{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{1C103709-8518-4873-B6E5-1C03483AB407}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{62A20B10-0C46-4224-9BF0-133AB62D16B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic Layer", "Business Logic Layer", "{B7A3E815-B7D9-46BA-B5E1-035365D03F03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoManager.DAL", "PhotoManager.DAL\PhotoManager.DAL.csproj", "{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{BA5A75AE-5718-444C-9902-7DF0B1FCEF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{FF4D2453-22DC-4ED7-B068-D92951F0DCAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{356F84D3-F6A3-4C8A-93DA-C8C10A0C94A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BAL.Tests", "BAL.Tests", "{713389B8-DB5E-4209-AF7B-12809A1527C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Tests", "Services.Tests\Services.Tests.csproj", "{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5A75AE-5718-444C-9902-7DF0B1FCEF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5A75AE-5718-444C-9902-7DF0B1FCEF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5A75AE-5718-444C-9902-7DF0B1FCEF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5A75AE-5718-444C-9902-7DF0B1FCEF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF4D2453-22DC-4ED7-B068-D92951F0DCAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF4D2453-22DC-4ED7-B068-D92951F0DCAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF4D2453-22DC-4ED7-B068-D92951F0DCAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF4D2453-22DC-4ED7-B068-D92951F0DCAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DA5D597-E33C-404F-A9CE-0D1AB2FC7674} = {1C103709-8518-4873-B6E5-1C03483AB407}
+		{0F23FE44-FB6C-4E89-B7CC-D694BFFD9CDD} = {62A20B10-0C46-4224-9BF0-133AB62D16B6}
+		{BA5A75AE-5718-444C-9902-7DF0B1FCEF29} = {B7A3E815-B7D9-46BA-B5E1-035365D03F03}
+		{FF4D2453-22DC-4ED7-B068-D92951F0DCAC} = {B7A3E815-B7D9-46BA-B5E1-035365D03F03}
+		{713389B8-DB5E-4209-AF7B-12809A1527C9} = {356F84D3-F6A3-4C8A-93DA-C8C10A0C94A1}
+		{72BA77B0-D7B8-42F9-A1BE-0A79A2A2449B} = {713389B8-DB5E-4209-AF7B-12809A1527C9}
+	EndGlobalSection
+EndGlobal

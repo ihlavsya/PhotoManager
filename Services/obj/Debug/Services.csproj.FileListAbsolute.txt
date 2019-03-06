@@ -1,0 +1,81 @@
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.xml
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.dll
+C:\Users\Mliashenko\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.xml
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.dll
+C:\Users\Maria\Documents\Visual Studio 2017\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Services.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\Helpers.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\PhotoManager.DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Helpers.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\personal projects and data\Projects\gitPhotoManager\mariia-liashenko-internship\Services\obj\Debug\Services.pdb

@@ -1,0 +1,29 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Photos overview</h3>
+<div class="container div-padding">
+    <div class="row">
+        <div class="col-md-10">
+            @Html.Partial("_ListPhotosPartial", Model)
+        </div>
+        <div class="col-md-2">
+            @Html.ActionLink("Edit mode", "AlbumEdit", "Photo", new {albumId = Model.ViewModels.First().AlbumId}, new {@class = "btn btn-default"})
+            @Html.Label("Public link to this album:")
+            @{
+                string href = "http://localhost:59136/Photo/PublicAlbumOverview?name=" + @Model.ViewModels.First().AlbumName;
+            }
+            @Html.ActionLink(href, "PublicAlbumOverview", new {name = Model.ViewModels.First().AlbumName}) 
+        </div>
+    </div>
+</div>
+
+@if (Model.PageInfo.TotalPages > 1)
+{
+    <div class="btn-group div-centercontent">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("AlbumOverview", new { albumId= Model.ViewModels.First().AlbumId, page = x }))
+    </div>
+}

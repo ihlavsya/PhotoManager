@@ -1,0 +1,91 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model PhotoSliderViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="new-div">
+    @Html.ActionLink("Previous", "PhotoSlider", "Photo", new { albumId=Model.ActivePhoto.AlbumId, itemPosition=Model.PreviousPhoto.ItemPosition }, new { @class = "btn btn-default" })
+    @Html.ActionLink("Next", "PhotoSlider", "Photo", new { albumId = Model.ActivePhoto.AlbumId, itemPosition=Model.NextPhoto.ItemPosition }, new { @class = "btn btn-default" })
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="form-group form-horizontal row">
+            <div class="col col-xs-10 col-md-10">
+                @Html.Image(Model.ActivePhoto.FilePath, Model.ActivePhoto.Description, new { @class = "img-thumbnail" })
+            </div>
+            <div class="col">
+                @if (Model.ActivePhoto.Description != String.Empty)
+                {
+                    <div>
+                        @Html.LabelFor(model => model.ActivePhoto.Description, htmlAttributes: new { @class = "control-label" })
+                        @Html.Label(Model.ActivePhoto.Description, htmlAttributes: new { @class = "label-value" })
+                    </div>
+                }
+                @if (Model.ActivePhoto.PhotoTakingPlace != String.Empty)
+                {
+                    <div>
+                        @Html.LabelFor(model => model.ActivePhoto.PhotoTakingPlace, htmlAttributes: new { @class = "control-label" })
+                        @Html.Label(Model.ActivePhoto.PhotoTakingPlace, htmlAttributes: new { @class = "label-value" })
+                    </div>
+                }
+                @if (Model.ActivePhoto.CameraModel != String.Empty)
+                {
+                    <div>
+                        @Html.LabelFor(model => model.ActivePhoto.CameraModel, htmlAttributes: new { @class = "control-label" })
+                        @Html.Label(Model.ActivePhoto.CameraModel, htmlAttributes: new { @class = "label-value" })
+                    </div>
+                }
+                <div>
+                    @if (!Model.ActivePhoto.Diaphragm.Contains("0"))
+                    {
+                        @Html.LabelFor(model => model.ActivePhoto.Diaphragm, htmlAttributes: new { @class = "control-label" })
+                        @Html.Label(Model.ActivePhoto.Diaphragm.ToString(), htmlAttributes: new { @class = "label-value" })
+                    }
+                </div>
+                <div>
+                    @Html.LabelFor(model => model.ActivePhoto.Flash, htmlAttributes: new { @class = "control-label" })
+                    @Html.Label(Model.ActivePhoto.Flash.ToString(), htmlAttributes: new { @class = "label-value" })
+                </div>
+                <div>
+                    @Html.LabelFor(model => model.ActivePhoto.ISO, htmlAttributes: new { @class = "control-label" })
+                    @Html.Label(Model.ActivePhoto.ISO.ToString(), htmlAttributes: new { @class = "label-value" })
+                </div>
+                <div>
+                    @Html.LabelFor(model => model.ActivePhoto.LensFocalLength, htmlAttributes: new { @class = "control-label" })
+                    @Html.Label(Model.ActivePhoto.LensFocalLength.ToString(), htmlAttributes: new { @class = "label-value" })
+                </div>
+                <div>
+                    @{
+                        string shutterSpeed = String.Empty;
+                        var shutterSpeedValue = Model.ActivePhoto.ShutterSpeed;
+                        if (shutterSpeedValue.Numerator != 0 && shutterSpeedValue.Denominator != 0)
+                        {
+                            Html.Label("Shutter speed (in sec): ", htmlAttributes: new { @class = "control-label" });
+
+                            if (shutterSpeedValue.Denominator == 1)
+                            {
+                                shutterSpeed = shutterSpeedValue.Numerator.ToString();
+                            }
+                            else
+                            {
+                                shutterSpeed = String.Concat(shutterSpeedValue.Numerator.ToString(), "/", shutterSpeedValue.Denominator.ToString());
+                            }
+                            @Html.Label("Shutter speed (in sec): ", htmlAttributes: new { @class = "control-label" })
+                            @Html.Label(shutterSpeed, htmlAttributes: new { @class = "label-value" })
+                        }
+                    }
+
+                </div>
+
+            </div>
+            <div class="form-group">
+                @if (ViewBag.IsOwner==true)
+                {
+                    @Html.ActionLink("Edit Mode", "UpdatePhoto", "Photo", new {id = Model.ActivePhoto.PhotoId}, new {@class = "btn btn-default"})
+                }
+            </div>
+        </div>
+    </div>
+</div>

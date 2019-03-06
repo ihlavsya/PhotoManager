@@ -1,0 +1,24 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.ViewModels == null)
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+}
+else
+{
+    @Html.Partial("_ListAllPhotosPartial", Model)
+}
+
+@if (Model.PageInfo.TotalPages > 1)
+{
+    <div class="btn-group">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("AddExistingPhotosToAnotherAlbum", new { albumId=Model.ViewModels.First().AlbumId, page = x }))
+    </div>
+}
+

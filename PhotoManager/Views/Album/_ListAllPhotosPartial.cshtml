@@ -1,0 +1,26 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model ItemListViewModel<PhotoViewModel>
+
+@using (Html.BeginForm("AddExistingPhotosToAnotherAlbum", "Album",FormMethod.Post))
+{
+    @Html.Hidden("albumId",Model.ViewModels.First().AlbumId)
+      for (int j = 0; j < Model.ViewModels.Count;)
+        {
+            <div class="row">
+                @for (int i = 0; i < ViewBag.ObjectsPerRow && j < Model.ViewModels.Count; i++)
+                {
+                    var viewModel = Model.ViewModels[j];
+
+                    <div class="col-md-2">
+                        @Html.ImageLink(viewModel.FilePath, viewModel.Name, "PhotoSlider", "Photo", new {photosId= Json.Encode(Model.FullListViewModelIds), photoId = viewModel.PhotoId}, null, null)
+                        <input type="checkbox" name="itemsToAdd" value="@viewModel.PhotoId"/>
+                    </div>
+                    j++;
+                }
+            </div>
+        }
+    <div class="col-md-2">
+        <input type="submit" value="Add" class="btn btn-default"/>
+    </div>
+}

@@ -1,0 +1,26 @@
+﻿@using PhotoManager.Helpers.HtmlHelpers
+@using PhotoManager.Model.ViewModels
+@model List<AlbumViewModel>
+
+@for (int j = 0; j < Model.Count;)
+{
+    <div class="row">
+        @for (int i = 0; i < ViewBag.ObjectsPerRow && j < Model.Count; i++)
+        {
+            var viewModel = Model[j];
+
+            <figure class="figure">
+                <div class="form-group col-md-9 div-narrow" style="padding-left: 0">
+                    @Html.ImageLink(viewModel.PhotoAlbumCoverPath, viewModel.Name, "AlbumOverview", "Photo", new { albumId = viewModel.AlbumId }, null, null)
+                    <div>
+                        <figcaption class="figure-caption caption-label">@viewModel.Description</figcaption>
+                    </div>
+                    <div>
+                        <figcaption class="figure-caption caption-label">@viewModel.Name</figcaption>
+                    </div>
+                </div>
+            </figure>
+            j++;
+        }
+    </div>
+}

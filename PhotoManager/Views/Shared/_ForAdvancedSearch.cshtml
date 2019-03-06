@@ -1,0 +1,12 @@
+﻿@model PhotoManager.Model.ViewModels.PhotoViewModel
+
+<h3>Advanced search</h3>
+    @using (Html.BeginForm("AdvancedSearch", "Search", FormMethod.Get, null))
+    {
+        @Html.Partial("_FormPhoto",Model)
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-default"/>
+            </div>
+        </div>
+    }
